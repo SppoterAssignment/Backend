@@ -45,7 +45,8 @@ INSTALLED_APPS = [
 
 # Which frontend origins may call this API from a browser.
 CORS_ALLOWED_ORIGINS = os.environ.get(
-    'CORS_ALLOWED_ORIGINS', 'http://localhost:5173,http://127.0.0.1:5173'
+    'CORS_ALLOWED_ORIGINS',
+    'http://localhost:5173,http://127.0.0.1:5173,https://frontend-gamma-five-33.vercel.app',
 ).split(',')
 # Optional, e.g. ^https://safe-route-.*\.vercel\.app$ to also allow Vercel preview deploys.
 CORS_ALLOWED_ORIGIN_REGEXES = [r for r in [os.environ.get('CORS_ALLOWED_ORIGIN_REGEX')] if r]

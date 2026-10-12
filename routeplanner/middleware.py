@@ -1,4 +1,4 @@
-BUILD = 'django-mw-1'  # bump to confirm which version is deployed
+BUILD = 'django-mw-2'  # bump to confirm which version is deployed
 
 
 class BuildHeaderMiddleware:
